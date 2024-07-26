@@ -3,7 +3,7 @@
 
 ## **Project Description: Web Scraper for Amazon.in**
 
-This web scraper is designed to extract comprehensive information on products listed on "https://www.amazon.in/" for a *particular searched keyword*. The main goal is to gather detailed data on listed products, including prices, URLs, ratings, brand, and special features listed. 
+This web scraper solely based on scrapy and is designed to extract comprehensive information on products listed on "https://www.amazon.in/" for a *particular searched keyword*. The main goal is to gather detailed data on listed products, including prices, URLs, ratings, brand, and special features listed. 
 
 
 **Technologies Used:**
