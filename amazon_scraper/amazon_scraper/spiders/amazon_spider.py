@@ -20,9 +20,10 @@ class AmazonSpiderSpider(scrapy.Spider):
 
     def start_requests(self):
         keyword = ['pendrive']
+        n_pages = 10
 
         for word in keyword:
-            for page in range(10):
+            for page in range(n_pages):
                 url = f'https://www.amazon.in/s?k={word}&page={page +1}'
                 yield scrapy.Request(get_scrapeops_url(url))
 
